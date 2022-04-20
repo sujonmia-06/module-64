@@ -53,7 +53,7 @@ app.get('/fruits', (req, res) => {
 
 app.get('/fruits/mango/fozli', (req, res) => {
     res.send('sour fozli flavour')
-})
+});
 
 app.listen(port, () => {
     console.log('listening on port', port)
